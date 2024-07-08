@@ -1,7 +1,6 @@
 # Vim Markdown
 
-[![Vint](https://github.com/preservim/vim-markdown/workflows/Vint/badge.svg)](https://github.com/preservim/vim-markdown/actions?workflow=Vint)
-[![Vader](https://github.com/preservim/vim-markdown/workflows/Vader/badge.svg)](https://github.com/preservim/vim-markdown/actions?workflow=Vader)
+**Forked from [Vim Markdown](https://github.com/preservim/vim-markdown)**
 
 Syntax highlighting, matching rules and mappings for [the original Markdown](http://daringfireball.net/projects/markdown/) and extensions.
 
@@ -461,11 +460,17 @@ The following requires `:filetype plugin on`.
 
 -   `:InsertNToc`: Same as `:InsertToc`, but the format of `h2` headers in the table of contents is a numbered list, rather than a bulleted list.
 
+## Todo
+
+- Local file link navigation 
+- Auto numbering lists// at least visually while editing
+
 ## Credits
 
 The main contributors of vim-markdown are:
 
 - **Ben Williams** (A.K.A. **@plasticboy**). The original developer of vim-markdown. [Homepage](http://plasticboy.com/).
+- **Joe Paterson** (A.K.K. **@b0dee**). 
 
 If you feel that your name should be on this list, please make a pull request listing your contributions.
 
